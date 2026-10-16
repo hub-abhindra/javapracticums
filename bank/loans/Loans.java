@@ -4,7 +4,7 @@ public class Loans
     String loanno;
     String loantype;
     double loanamt;
-    public Loans(String lobnanno, String loantype, double loanamt)
+    public Loans(String loanno, String loantype, double loanamt)
     {
         this.loanno=loanno;
         this.loantype=loantype;

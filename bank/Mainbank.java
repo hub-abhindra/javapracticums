@@ -31,6 +31,7 @@ public class Mainbank
         String cusname=sc.next();
         int cusno=sc.nextInt();
         Customers c = new Customers(cusid,cusname,cusno);
+        c.display();
         return c;
     }
     public static void main(String[] args)
